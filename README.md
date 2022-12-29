@@ -12,4 +12,14 @@ If the css, js, index.html, style.css, or app.js files or directories already ex
 
 To use the script, simply run it using Python.
 
+How to run the app : 
+
+python frontEndFileCreator.py -h 
+
+python frontEndFileCreator.py -index  fooBar/
+python frontEndFileCreator.py  -css  fooBar/
+python frontEndFileCreator.py  -JS   fooBar/
+
+The commands above wil help create the  folder structure for the project and  open  indidivudal files.
+
 I hope this helps! Let me know if you have any questions or if you need further assistance.
