@@ -31,13 +31,11 @@ else:
 
 
 
-
 #creating the style.css, app.js, if they don already exist
 if not os.path.exists(args.name + "/index.html"):
-    
+    open(args.name + "/index.html","w").close()
 else:
     print("index.html file already exists!")        
-
 
 if not os.path.exists(args.name + "/css/style.css"):
     open(args.name + "/css/style.css","w").close()
@@ -49,7 +47,7 @@ if not os.path.exists(args.name + "/js/app.js"):
 else:
     print("app.js file already exists!")    
 
-# Open the index.html file if the -e flag is set
+# Open the index.html file if the -index flag is set
 if args.index:
     subprocess.run(["code", args.name + "/index.html"])
     print("opening index.html file")
