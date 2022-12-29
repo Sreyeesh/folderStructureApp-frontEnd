@@ -17,7 +17,9 @@ How to run the app :
 python frontEndFileCreator.py -h 
 
 python frontEndFileCreator.py -index  fooBar/
+
 python frontEndFileCreator.py  -css  fooBar/
+
 python frontEndFileCreator.py  -JS   fooBar/
 
 The commands above wil help create the  folder structure for the project and  open  indidivudal files.
